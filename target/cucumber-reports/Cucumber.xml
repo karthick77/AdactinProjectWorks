@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.331">
+    <testcase classname="Adactin Hotel App Booking" name="Login Page" time="0.124">
+        <system-out><![CDATA[Given user Launch The Application...........................................passed
+When user Enters The Username...............................................passed
+And user Enters The Password................................................passed
+Then user Clicks The LoginButton then Its Navigate To SearchHotelPage.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adactin Hotel App Booking" name="Search Hotel Page" time="0.013">
+        <system-out><![CDATA[When user Selects Hotel Location............................................passed
+And user Selects Hotel......................................................passed
+And user Selects RoomType...................................................passed
+And user Selects NoOfRooms..................................................passed
+And user Enters CheckInDate.................................................passed
+And user Enters CheckOutDate................................................passed
+And user Selects AdultsPerRoom..............................................passed
+And user Selects ChildrenPerRoom............................................passed
+Then user Clicks On The SearchButton then Its Navigate To SelectHotelPage...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adactin Hotel App Booking" name="Select Hotel Page" time="0.002">
+        <system-out><![CDATA[When user Clicks On The RadioButton.........................................passed
+Then user Clicks The ContinueButton then Its Navigate To BookAHotelPage.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adactin Hotel App Booking" name="Book A Hotel Page" time="0.005">
+        <system-out><![CDATA[When user Enters The FirstName..............................................passed
+And user Enters The LastName................................................passed
+And user Enters The BillingAddress..........................................passed
+And user Enters The CreditCardNumber........................................passed
+And user Enters The CreditCardType..........................................passed
+And user Enters The CardExpiryMonthandYear..................................passed
+And user Enters The CVVNumber...............................................passed
+Then user Clicks On BookHotelButton.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
